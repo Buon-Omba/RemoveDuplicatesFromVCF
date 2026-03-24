@@ -1,3 +1,12 @@
 # RemoveDuplicatesFromVCF
 
-A simple python script who can remove duplicates contacts from a VCF file
+A simple python script who removes duplicate contacts from a vcf file
+
+Features:
+- Removes duplicate contacts based on phone numbers
+- Cleans & formats numbers automatically (+39 for 10-digit numbers)
+- Merges duplicate contacts, even if fields are reordered
+- Eliminates duplicate phone numbers within the same contact
+
+Usage:
+python .\RemoveDuplicateVCF.py input.vcf output
